@@ -104,6 +104,7 @@ margin-top: 10px;
     width: 190px;
     height: 458px;
     background-color: #F4F4F4;
+    position: relative;
 }
 .main-left ul li{
     font-size:14 ;
@@ -118,14 +119,57 @@ margin-top: 10px;
    background-color:#DD302D;
     
 }
-.main-left ul li:hover a{
+.main-left ul li:hover>a{
     color: white;
+   
 }
 .main-center{
     width: 690px;
     height: 458px;
     margin: 0 10px;
+    
 }
+
+.center1{
+    width: 700px;
+    height: 458px;
+    background-color: white;
+   position: absolute;
+   left: 190px;
+   bottom: 0px;
+   display: none; 
+}
+.main-left ul li:hover .center1{
+    display: block;
+}
+.center1 dl{
+    
+    
+    line-height: 36px;
+}
+.center1 dl dt{
+    float: left;
+   margin-left: 10px;
+    font-size: 14px;
+    width: 70px;
+    height: 20px;font-family: PingFangSC-Medium;
+font-weight: bold;
+margin-right: 10px;
+    }
+.center1 dl:first-child{
+    margin-top: 10px;
+}
+.center1 dl dd{
+float: left;
+
+}
+.center1 dl dd a{
+    border-left: 1px solid #999999;
+padding: 0 10px;
+font-size: 14px;
+
+}
+
 .main-right{
     width: 290px;
     height: 458px; 
