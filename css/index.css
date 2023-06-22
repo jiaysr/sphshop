@@ -173,16 +173,192 @@ font-size: 14px;
 .main-right{
     width: 290px;
     height: 458px; 
+    overflow: hidden;
+    margin-top: 10px;
+     
 }
 /* end */
 /*  */
 .main-center1 img {
     float: left;
-    margin: 0 10px;
+    margin-right: 11px;
+    cursor: pointer;
 }
-.wdaa:first-child img{
-    margin-left: 0;
+.wdaa img:last-child{
+    margin-right: 0;
 }
 
+.main-right-top{
+    width: 260px;
+    height: 158px;
+    border: 1px solid #D9D9D9 ;
+    padding: 0 14px;
+}
+.main-right-top .title1{
+    height: 38px;
+    line-height: 38px;
+    border-bottom: 1px solid #D9D9D9
+}
+.main-1 a{
+    height: 26px;
+    line-height: 26px;
+    font-size: 12px;
+}
+.main-right-top .title1 span{
+    font-size: 14px;
+}
+.main-right-top .title1 a{
+    font-size: 12px;
+}
+
+.title1 a{
+float: right;
+}
+.main-list li{
+    width: 48px;
+    height: 70px;
+    margin: 0 11px;
+    float: left;
+    text-align: center;
+}
+.main-list li:first-child{
+    margin-left: 16px;
+}
+.main-list:first-child{
+    margin-top: 10px;
+}
+.main-list:nth-child(2){
+    margin: 17px 0;
+}
+.main-list span{
+    font-size: 14px;
+    font-weight: bolder;
+}
+.main-list .picture{
+    width: 48px;
+    height: 48px;
+    background-image: url('../images/精灵图-侧边功能.png');
+}
+.main-list:nth-child(1) li:nth-child(1) .picture{
+    background-position: 0 0;
+}
+.main-list:nth-child(1) li:nth-child(2) .picture{
+    background-position: -48px 0;
+}
+.main-list:nth-child(1) li:nth-child(3) .picture{
+    background-position: -96px 0;
+}
+.main-list:nth-child(1) li:nth-child(4) .picture{
+    background-position: -144px 0;
+}
+.main-list:nth-child(2) li:nth-child(1) .picture{
+    background-position:  0 -48px;
+}
+.main-list:nth-child(2) li:nth-child(2) .picture{
+    background-position: -48px -48px;
+}
+.main-list:nth-child(2) li:nth-child(3) .picture{
+    background-position: -96px -48px;
+}
+.main-list:nth-child(2) li:nth-child(4) .picture{
+    background-position: -144px -48px;
+}
+.main-list:nth-child(3) li:nth-child(1) .picture{
+    background-position: 0 -96px;
+}
+.main-list:nth-child(3) li:nth-child(2) .picture{
+    background-position: -48px -96px;
+}
+.main-list:nth-child(3) li:nth-child(3) .picture{
+    background-position: -96px -96px;
+}
+.main-list:nth-child(3) li:nth-child(4) .picture{
+    background-position: -144px -96px;
+}
 /* end */
+/*  */
+.floor{
+    margin-top: 48px;
+}
+.floor-list li a{
+    padding: 0 10px;
+    border-right: 1px solid #666666;
+    font-size: 16px;
+    line-height: 30px;
+    height: 24px;
+}
+.floor-list li{
+    float: left;
+}
+.floor-list li:first-child a{
+    color: red;
+    padding-left: 0;
+}
+.floor-list li:last-child a{
+    border: 0;
+    padding-right: 0;
+}
+
+.floor-nav span{
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    color: #000000;
+}
+.floor-nav{
+    padding-bottom: 4px;
+    height: 30px;
+    border-bottom: 2px solid #DD302D;
+
+}
+.floor-botter .item1{
+    width: 230px;
+    height: 432px;
+    background-color: #F4F4F4 ;
+}
+.floor-botter .item2{
+    width: 340px;
+    height: 432px;
+    background-color: aqua;
+    background-image: url('../images/appliance_banner07.png');
+}
+.floor-botter .item3{
+    width: 206px;
+    height: 432px;
+    background-color: aqua;
+}
+.item3-1{
+    height: 215px;
+    background-image: url('../images/微波炉.png');
+    border-bottom: 1px solid #E2E2E2 ;
+}
+.item3-2{
+    height: 215px;
+    background-image: url('../images/空气炸锅.png');
+    border-bottom: 1px solid #E2E2E2 ;
+}
+.floor-botter .item4{
+    width: 206px;
+    height: 431px;
+    
+    border-left:1px solid #E2E2E2;
+    border-right:1px solid #E2E2E2;
+    border-bottom:1px solid #E2E2E2;
+}
+.floor-botter .item5{
+    width: 206px;
+    height: 432px;
+    background-color: aqua;
+}
+.item5-1{
+    height: 215px;
+    background-image: url('../images/电饭煲.png');
+    border-bottom: 1px solid #E2E2E2 ;
+}
+.item5-2{
+    height: 215px;
+    background-image: url('../images/电饭煲2.png');
+    border-bottom: 1px solid #E2E2E2 ;
+}
+/*  */
 /* 主导航end */
